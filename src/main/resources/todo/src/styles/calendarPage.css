@@ -1,0 +1,27 @@
+.fc-daygrid-day {
+  cursor: pointer;
+}
+
+.fc-daygrid-day-number {
+  text-decoration: none;
+}
+
+.fc-day-sat a {
+  color: blue;
+}
+
+.fc-day-sun a {
+  color: red;
+}
+
+.fc-day-mon a,
+.fc-day-tue a,
+.fc-day-wed a,
+.fc-day-thu a,
+.fc-day-fri a {
+  color: black;
+}
+
+.fc-daygrid-day.holiday-text a {
+  color: red;
+}
